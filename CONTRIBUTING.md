@@ -1,6 +1,6 @@
 # Contributing to Milkshake
 
-👋 Thanks for your interest in improving Milkshake! This project empowers developers to generate Nano Banana (Gemini 2.5 Flash Image) artwork from the command line. Contributions are welcome—bug reports, feature ideas, docs updates, or code patches.
+👋 Thanks for your interest in improving Milkshake! This project empowers developers to generate Nano Banana (Gemini 2.5 Flash Image Preview) artwork from the command line. Contributions are welcome—bug reports, feature ideas, docs updates, or code patches.
 
 ## Getting Started
 

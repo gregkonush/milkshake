@@ -1,6 +1,6 @@
 # milkshake
 
-Milkshake is an open-source CLI that turns plain text prompts into images using Google's Nano Banana (Gemini 2.5 Flash Image) model, then ships the PNG straight to your clipboard and disk. It is designed to feel invisible—developers type one command and instantly have a shareable visual ready for social, docs, or prototypes.
+Milkshake is an open-source CLI that turns plain text prompts into images using Google's Nano Banana (Gemini 2.5 Flash Image Preview) model, then ships the PNG straight to your clipboard and disk. It is designed to feel invisible—developers type one command and instantly have a shareable visual ready for social, docs, or prototypes.
 
 ## Features
 
@@ -14,18 +14,25 @@ Milkshake is an open-source CLI that turns plain text prompts into images using 
 
 1. **Grab an API key** – Visit [Google AI for Developers](https://ai.google.dev/) and ensure your key has access to the Nano Banana (`gemini-2.5-flash-image-preview`) model.
 2. **Export the key**:
+
    ```bash
    export GOOGLE_API_KEY="your-key"
    ```
+
 3. **Install Milkshake from source** (until a crates.io release is available):
+
    ```bash
    cargo install --path .
    ```
+
    Or build a release binary directly:
+
    ```bash
    cargo build --release
    ```
+
 4. **Generate your first image**:
+
    ```bash
    milkshake "A Gemini-branded nano banana dessert plated on a futuristic table"
    ```
@@ -66,15 +73,20 @@ Milkshake prefers your Pictures directory (`~/Pictures/milkshake/`). If it canno
 
 - Required toolchain: Rust 1.80+ (edition 2024).
 - Formatting & linting:
+
   ```bash
   cargo fmt
   ```
+
 - Build & test:
+
   ```bash
   cargo build
   cargo test
   ```
+
 - Create a release build:
+
   ```bash
   cargo build --release
   ```

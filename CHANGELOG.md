@@ -6,6 +6,11 @@ All notable changes to this project will be documented in this file. The format 
 
 - _Nothing yet._
 
+## [0.1.1] - 2025-09-21
+
+### Changed
+- Switched the default Nano Banana model to `gemini-2.5-flash-image-preview` and refreshed documentation accordingly.
+
 ## [0.1.0] - 2025-09-21
 
 ### Added
@@ -15,6 +20,6 @@ All notable changes to this project will be documented in this file. The format 
 - Smart default output paths and configurable `--output` overrides.
 - Safety rating surfacing from Gemini responses.
 - Basic smoke test exercising the help command.
-
-[Unreleased]: https://github.com/gregkonush/milkshake/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/gregkonush/milkshake/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/gregkonush/milkshake/releases/tag/v0.1.1
 [0.1.0]: https://github.com/gregkonush/milkshake/releases/tag/v0.1.0
