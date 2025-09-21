@@ -1,0 +1,28 @@
+[package]
+name = "milkshake"
+version = "0.1.0"
+edition = "2024"
+description = "Seamless CLI for Google's Nano Banana (Gemini 2.5 Flash Image) model"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/gregkonush/milkshake"
+homepage = "https://github.com/gregkonush/milkshake"
+documentation = "https://github.com/gregkonush/milkshake#readme"
+keywords = ["cli", "ai", "image-generation", "google-ai", "gemini"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+anyhow = "1.0"
+arboard = "3.4"
+base64 = "0.22"
+clap = { version = "4.5", features = ["derive", "env"] }
+directories = "5.0"
+image = { version = "0.25", default-features = false, features = ["png", "jpeg"] }
+reqwest = { version = "0.12", features = ["json", "blocking", "rustls-tls"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+uuid = { version = "1.10", features = ["v4"] }
+
+[dev-dependencies]
+assert_cmd = "2.0"
+predicates = "3.1"
